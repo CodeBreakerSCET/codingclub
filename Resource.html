@@ -6,18 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Resource.css">
+    <style>
+      nav 
+        {
+            display: flex;             /* establish flex container */
+            align-items: center;       /* center ul container vertically */
+            justify-content: center;   /* center ul container horizontally (optional) */
+            border-radius: 20px;
+            position: relative;  /* establish containing block (nearest positioned ancestor) for absolute positioning */
+
+        }
+        li
+        {
+            list-style: none;
+            display: inline;
+            padding: 50px;
+            
+        }
+    </style>
 </head>
 <body>
+  <a class="navbar-brand mt-2 mt-lg-0" href="">
+    <!-- <i class="fab fa-free-code-camp"></i> -->
+    <img src="images/FINAL_LOGO.png" height="60" alt="logo" loading="lazy">
+    </a>
     <section id="section">
         <div class="container-fluid">
             <!-- Nav Bar -->
-    
+            
             <nav class="navbar navbar-expand-lg navbar-dark">
-              <a class="navbar-brand mt-2 mt-lg-0" href="">
-                <!-- <i class="fab fa-free-code-camp"></i> -->
-                <img src="images/FINAL_LOGO.png" height="60" alt="logo" loading="lazy">
-                CodeBreaker
-                </a>
+              
     
               <button
                 class="navbar-toggler"

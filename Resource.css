@@ -1,7 +1,7 @@
 
 .hh{
   text-align: center;
-  background-color: #090603;
+  /* background-color: #090603; */
   color: aliceblue;
   border-radius: 40px;
   
@@ -148,7 +148,7 @@ h1 {
 }
 
 .codebeaker {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin-top: 20px;
   margin-right: 30px;
   margin-left: 30px;
@@ -184,9 +184,12 @@ h1 {
 
 .container-fluid
 {
-  border-radius: 75px;
   color: #f5f5f5;
   background-color: #fff;
   height: 10px;
-
+  padding-top: 3px;
+  padding-right: 5%;
+  padding-bottom: 62px;
+  padding-left: 15%;
+  border-radius: 35px;
 }
