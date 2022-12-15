@@ -3,6 +3,10 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
+button
+{
+  display: none;
+}
 h1 
 {
   font-family: "Caveat", cursive;
@@ -63,7 +67,7 @@ nav li {
 {
   button
   {
-    display:table-cell;
+    display:table-column;
   }
   .container 
   {
@@ -94,7 +98,7 @@ nav li {
   .evnt
   {
     padding-right: 30%;
-    margin-top: 10%;
+    margin-top: 100%;
     padding: 50%;
   }
 }
@@ -138,11 +142,4 @@ nav
 {
   font-size: 1.4rem;
   font-family: "Montserrat-light";
-}
-
-
-
-button
-{
-  display: none;
 }
