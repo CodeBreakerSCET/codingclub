@@ -34,11 +34,13 @@ h3 {
   font-size: xx-large;
 }
 
-.navbar {
+.navbar 
+{
   padding: 0 0 4.5rem;
 }
 
-.navbar-brand {
+.navbar-brand 
+{
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -133,7 +135,8 @@ h3 {
   text-align: center;
 }
 
-.pricing-coloumn {
+.pricing-coloumn 
+{
   padding: 3% 2%;
 }
 
@@ -191,5 +194,8 @@ h3 {
   }
 }
 
-
+img
+{
+  border-radius: 45%;
+}
 

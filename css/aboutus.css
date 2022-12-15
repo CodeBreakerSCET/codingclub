@@ -1,18 +1,21 @@
-* {
+* 
+{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
-body {
+body 
+{
     background-color: #EED6C4;
 }
 
-#section {
+#section 
+{
     padding: 0px;
 }
 
-.container-fluid {
+.container-fluid 
+{
     height: 10px;
     background-color: #212121;
     color: #fff;
@@ -22,26 +25,31 @@ body {
     padding-left: 15%;
   }
 
-  .navbar {
+.navbar 
+{
     padding: 0 0 4.5rem;
-  }
+}
   
-  .navbar-brand {
+.navbar-brand 
+{
     font-size: 2.5rem;
     font-weight: bold;
-  }
+}
   
-  .nav-item {
+.nav-item 
+{
     padding: 0 18px;
-  }
+}
   
-  .nav-link {
+.nav-link 
+{
     font-size: 1.4rem;
     font-family: "Montserrat-light";
-  }
+}
 
 
-h1 {
+h1 
+{
     font-family: 'Baloo Bhai 2', cursive;
     /* display: flex;
     align-items: center;
@@ -52,13 +60,16 @@ h1 {
 }
 
 
-@media only screen and (max-width: 570px) {
-    h1 {
+@media only screen and (max-width: 570px) 
+{
+    h1 
+    {
         font-size: 30px;
     }
 }
 
-.codebeaker {
+.codebeaker 
+{
     border: 2px solid black;
     margin-top: 50px;
     margin-right: 30px;
@@ -66,7 +77,8 @@ h1 {
     margin-bottom: 0px;
 }
 
-.codebeaker p {
+.codebeaker p 
+{
     margin-left: 10px;
     margin-right: 10px;
     padding: 25px;
@@ -115,25 +127,26 @@ h1 {
     /* padding-left: px; */
     
 }
-.card img{
+.card img
+{
     /* width: 100%; */
     width: 7.6em;
     height: 7.6em;
     border-radius: 45%;
 }
 
-.card h3{
+.card h3
+{
     font-weight: 800;
     font-family: 'Baloo Bhai 2', cursive;
     font-size: 30px;
-
 }
-.card p{
+.card p
+{
     font-weight: 400;
     text-transform: uppercase;
     margin: 0.5em 0 2em 0;
     letter-spacing: 2px;
-
 }
 
 .icons
@@ -144,15 +157,16 @@ h1 {
     justify-content: space-between;
     
 }
-.card a{
+.card a
+{
     text-decoration: none;
     color: inherit;
     font-size: 1.5em;
 }
-.card:hover{
+.card:hover
+{
     background: linear-gradient(#6045ea,#8567f7);
     color: white;
-
 }
 .card:hover .imgcontainer
 {
@@ -161,29 +175,39 @@ h1 {
 
 
 
-body {
+body 
+{
     background-color: #f5f5f5;
 }
 
 
-@media screen  and (min-width : 768px){
-    section{
+@media screen  and (min-width : 768px)
+{
+    section
+    {
         padding: 1em 7em;
     }
-    
 }
 
-@media screen  and (min-width : 992px){
-    section{
+@media screen  and (min-width : 992px)
+{
+    section
+    {
         padding: 1em;
     }
-    .card{
+    .card
+    {
         padding: 5em 1em;
     }
-    .column{
+    .column
+    {
         flex: 0 0 33.33%;
         max-width: 33.33%;
         padding: 0 1em ;
     }
     
+}
+img
+{
+  border-radius: 45%;
 }
