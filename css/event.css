@@ -143,3 +143,44 @@ nav
   font-size: 1.4rem;
   font-family: "Montserrat-light";
 }
+@media (max-width: 1033px) 
+{
+  .container 
+  {
+    /* text-align: center; */
+    background-color: #212121;
+    flex-direction: row;
+    padding-top: 1px;
+    padding-right: 0px;
+    padding-bottom: 6%;
+    padding-left: 1px;
+
+  }
+
+  .container-nav 
+  {
+    flex-direction: row;
+    background-color: #212121;
+  }
+
+  nav ul 
+  {
+    /* flex-direction: column; */
+    text-align: center;
+    background-color: #212121;
+
+  }
+
+  nav li 
+  {
+    /* margin: 0.8em 0; */
+    background-color: #212121;
+
+  }
+  .evnt
+  {
+    /* padding-right: 30%; */
+    /* margin-top: 100%; */
+    /* padding: 50%; */
+  }
+}
