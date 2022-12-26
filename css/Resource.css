@@ -136,6 +136,7 @@ h1 {
   text-align: center;
   font-size: 50px;
   font-weight: 800;
+  
 }
 
 
@@ -270,7 +271,7 @@ nav li {
   .container 
   {
     text-align: center;
-    background-color: #212121;
+    background-color: #719fb0;
   }
 
   .container-nav 
@@ -298,6 +299,11 @@ nav li {
     padding-right: 30%;
     margin-top: 100%;
     padding: 50%;
+  }
+
+  h1
+  {
+    padding-top: 278px;
   }
 }
                                                           
