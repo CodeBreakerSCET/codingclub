@@ -279,10 +279,6 @@ body {
   
   @media (max-width: 680px) 
   {
-    button
-    {
-      display:table-column;
-    }
     .container 
     {
       text-align: center;
@@ -314,6 +310,10 @@ body {
       padding-right: 30%;
       margin-top: 100%;
       padding: 50%;
+    }
+    .codebeaker
+    {
+      margin-top: 430px;
     }
   }
                                                             
