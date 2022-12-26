@@ -65,14 +65,10 @@ nav li {
 
 @media (max-width: 680px) 
 {
-  button
-  {
-    display:table-column;
-  }
   .container 
   {
     text-align: center;
-    background-color: #212121;
+    background-color: #719fb0;
   }
 
   .container-nav 
@@ -98,9 +94,15 @@ nav li {
   .evnt
   {
     padding-right: 30%;
-    margin-top: 100%;
+    margin-top: 120%;
     padding: 50%;
   }
+
+  h1
+  {
+    padding-top: 278px;
+  }
+  
 }
                                                           
 img
