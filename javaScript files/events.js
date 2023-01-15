@@ -2,7 +2,7 @@
 var myfunc = setInterval(function() 
 {
     // code goes here
-    var countDownDate = new Date("Jan 01, 2023 20:00:00").getTime();
+    var countDownDate = new Date("Jan 22, 2023 20:00:00").getTime();
     var now = new Date().getTime();
     var timeleft = countDownDate - now;
         
