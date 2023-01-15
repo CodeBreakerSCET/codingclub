@@ -32,7 +32,7 @@ var myfunc = setInterval(function()
 const eventName = ["Weekly Contest 3 (Not Yet scheduled) <br>","Weekly Contest 4 (Not Yet scheduled)  <br>"];
 function upcomingTest()
 {
-    document.getElementById("first").innerHTML = "Weekly Contest 2 (Scheduled on this Sunday) <br>";
+    document.getElementById("first").innerHTML = "Weekly Contest 2 (Scheduled on Sunday) <br>";
     document.getElementById("events").innerHTML = eventName.join("\n");
     document.getElementById("eventBtn").value = "UpComing Contest"
 }
