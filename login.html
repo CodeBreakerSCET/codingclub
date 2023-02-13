@@ -4,11 +4,30 @@
     <title>Authentication Page</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Fresca&display=swap" rel="stylesheet"> 
+    <script src="javaScript files/events.js"></script>
     <script src="javaScript files/login.js"></script>
     <link rel="stylesheet" href="css/login.css">
+    <script>
+
+      function UpdateContest()
+      {
+          var contestName = [];
+          var contestname = document.getElementById("contestName").value;
+          alert("Contest name " + contestname + " is added")
+          if(contestname != null)
+          {
+              contestname = contestname + "<br>";
+              eventName.push(contestname)
+          }
+          else
+          {
+              alert("Contest name Can't blank")
+          }
+      }
+    </script>
   </head>
   <body>
-    <section class="CheckBox">
+    <section class="CheckBox" id = "myDIV" >
       <h1>Admin Authentication</h1>
       <form action="#" method="post" name="authentication" id="authentication" class="authentication">
         <label for="username">Enter your username :</label>
@@ -26,12 +45,30 @@
         </label>
       </form>
       <div id="rules">
-               <ul>
+        <ul>
           <li>Username must have between 3 and 15 caracters</li>
           <li>Password must have between 8 and 15 caracters</li>
           <li>Username and Password required</li>
           <li>Use only numbers and letters</li>
         </ul>
+      </div>
+    </section>
+
+    <section id="DataUpdation">
+      <h1>
+        Currently only update of contest is possible
+      </h1>
+      <div>
+        <form action="#" method="post">
+          <input type="text" name="contestName" id="contestName" placeholder="Write Contest Name Here">
+          <br>
+          <button id="addContest" type="submit" name ="myButton" onclick="UpdateContest()">Click to add contest</button>
+        </form>
+        
+
+      </div>
+      <div class="logout">
+        <button id="logoutButton" onclick="login()"> Logout</button>
       </div>
     </section>
   </body>  

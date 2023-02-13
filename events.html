@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
     <script src="javaScript files/events.js"></script>
+    <script src="javaScript files/updateData.js"></script>
     <link rel="stylesheet" href="css/event.css">
 </head>
 <body>
@@ -34,21 +35,43 @@
         </div>
       </header>
 
-      <div class="myBody">
-        <h2 id="duo"> Upcoming Contest are..</h2>
-        <p>Latest</p>
-        <div class="">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdicTfI-pok_dd98nvWRME3dD1Tn3ekFJyh2zgH--uiyiwRHg/viewform?usp=sf_link">
-            <p id="first"></p>
-          </a>
-          <p id="time">
-          <h2 id="end"></h2>
+      <div class="contest">
+        <div class="flexbox-container" style="display:flex;">
+          <div class="sidebar" style="flex:1;">
+            <div class="UpcomingContest">
+              <div class="myBody">
+                <h2 id="duo"> Upcoming Contest are..</h2>
+                <p>Latest</p>
+                <div class="">
+                    <p id="first"></p>
+                    <p id="time">
+                    <h2 id="end"></h2>
+                </div>
+                <form>  
+                  <input type="button" id="eventBtn" value="Click Here" onclick="upcomingTest()"/>  
+                </form>
+                <p id="events"></p> 
+              </div>
+            </div>
+          </div>
+          <div class="main" style="flex:1;">
+          </div>
+          <div class="pastContest">
+            <h2>
+              Past Contest are..
+            </h2>
+            <p id="allpast"></p>
+            <form>  
+              <input type="button" id="pasteventBtn" value="Click Here" onclick="pastContest()"/>  
+            </form>
+          </div>
         </div>
-        <form>  
-          <input type="button" id="eventBtn" value="Click Here" onclick="upcomingTest()"/>  
-        </form>
-        <p id="events"></p> 
       </div>
-      
+      <div class="results">
+        <h5>Overall competition results from each year</h5>
+      </div>
+      <footer id="footer">        
+        <p class="copyright">&copy; Copyright 2022 CodeBreaker</p>
+      </footer>
 </body>
 </html>

@@ -2,7 +2,7 @@
 var myfunc = setInterval(function() 
 {
     // code goes here
-    var countDownDate = new Date("Jan 22, 2023 20:00:00").getTime();
+    var countDownDate = new Date("Feb 19, 2023 20:00:00").getTime();
     var now = new Date().getTime();
     var timeleft = countDownDate - now;
         
@@ -28,12 +28,33 @@ var myfunc = setInterval(function()
 
 
 // add new events here--
-// Don't forget to add time in the events.html for upcoming contest
-const eventName = ["Weekly Contest 3 (Not Yet scheduled) <br>","Weekly Contest 4 (Not Yet scheduled)  <br>"];
+var eventName = ["Contest 4 (Not Yet scheduled) <br>","Contest 5 (Not Yet scheduled)  <br>"];
 function upcomingTest()
 {
-    document.getElementById("first").innerHTML = "Weekly Contest 2 (Scheduled on Sunday) <br>";
+    document.getElementById("first").innerHTML = "Contest 3 (Scheduled on Sunday) <br>";
     document.getElementById("events").innerHTML = eventName.join("\n");
     document.getElementById("eventBtn").value = "UpComing Contest"
 }
 
+var pastEvent = ["Contest 1 on 16 Oct 2022<br>", "Contest 2 on 22 Jan 2023<br>"]
+function pastContest()
+{
+    document.getElementById("allpast").innerHTML = pastEvent.join("\n")
+    document.getElementById("pasteventBtn").value = "Past Contest"
+
+}
+
+function UpdateContest()
+{
+    var contestname = document.getElementById("contestName").val();
+    alert("Contest name " + contestname + " is added")
+    if(contestname != null)
+    {
+        contestname = contestname + "<br>";
+        eventName.push(contestname)
+    }
+    else
+    {
+        alert("Contest name Can't blank")
+    }
+}

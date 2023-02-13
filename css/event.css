@@ -158,6 +158,8 @@ nav
   font-size: 1.4rem;
   font-family: "Montserrat-light";
 }
+
+
 @media (max-width: 1033px) 
 {
   .container 
@@ -198,4 +200,50 @@ nav
     /* margin-top: 100%; */
     /* padding: 50%; */
   }
+}
+
+.contest
+{
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f1f6f9;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-icon {
+  margin: 12px;
+}
+.copyright {
+  padding-top: 20px;
+}
+
+.results
+{
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f1f6f9;
+}
+
+.pastContest
+{
+  border: 2px solid black;
+  margin: 20px;
+  margin-right: 90px;
+  padding: 20px;
+  background-color: #f1f6f9;
+}
+
+.UpcomingContest
+{
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f1f6f9;
 }
