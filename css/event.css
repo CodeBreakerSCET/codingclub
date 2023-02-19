@@ -1,7 +1,7 @@
-body {
+body 
+{
   background-color: #719fb0;
   font-family: 'Poppins', sans-serif;
-  margin: 0;
 }
 button
 {
@@ -14,192 +14,73 @@ h1
   color: #fd5f00;
   margin: 0;
 }
+#lg
+{
+    list-style-type: none;
+}
 
-nav a {
-  font-size: 1.5rem;
-  color: #f9f8eb;
+li
+{
+  display: inline;
+}
+
+nav
+{
+  padding: 10px;
+  font-size: 22.4px;
+  font-family: "Montserrat-light";
+  font-size-adjust: 20px;
   text-transform: uppercase;
-}
-
-nav ul 
-{
-  list-style: none;
-  padding: 0;
+  margin: 1.5em;
+  padding: 1.5em;
   display: flex;
+  justify-content:space-between;
+  background-color: #212121;
 }
 
-nav a 
+ul li
 {
-  text-decoration: none;
+  margin: 2.5vh;
+  padding: 8px;
 }
-              
+
 nav a:hover,
 nav a:focus 
 {
   color: #fd5f00;
 }
-.container 
+
+
+nav a 
 {
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
+  text-decoration: none;
 }
-.container-nav 
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav li {
-  margin-left: 2em;
-  }
-  nav a {
-    text-decoration: none;
-  }
   
-  nav a:hover,
-  nav a:focus {
-    color: #fd5f00;
-  }
-    
-
-@media (max-width: 680px) 
-{
-  .container 
-  {
-    text-align: center;
-    background-color: #719fb0;
-  }
-
-  .container-nav 
-  {
-    flex-direction: column;
-    background-color: #212121;
-  }
-
-  nav ul 
-  {
-    flex-direction: column;
-    text-align: center;
-    background-color: #212121;
-
-  }
-
-  nav li 
-  {
-    margin: 0.8em 0;
-    background-color: #212121;
-
-  }
-  .evnt
-  {
-    padding-right: 30%;
-    margin-top: 120%;
-    padding: 50%;
-  }
-
-  h1
-  {
-    padding-top: 278px;
-  }
-  h2
-  {
-    margin-top: 350px;
-  }
-  form
-  {
-    margin-top: -30px;
-  }
-  .myBody
-  {
-    margin-left: 20px;
-    border-radius: 2px black;
-  }
-  
+nav a:hover,
+nav a:focus {
+  color: #fd5f00;
 }
-                                                          
+
+
 img
 {
   border-radius: 45%;
 }
 
-.container 
+a span
 {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+  position: absolute;
+  margin-top: 2vh;
+  margin-left: 2vh;
+
 }
 
 header 
 {
-  /* background-color: #05004e; */
+
   padding: 0.8em 0;
   box-shadow: 2px 2px 10px #f1f6f9;
-}
-
-nav
-{
-  height: 10px;
-  background-color: #212121;
-  color: #fff;
-  padding-top: 10px;
-  padding-right: 0px;
-  padding-bottom: 6%;
-  padding-left: 1%;
-}
-
-.nav-item 
-{
-  padding: 0 28px;
-}
-
-.nav-link 
-{
-  font-size: 1.4rem;
-  font-family: "Montserrat-light";
-}
-
-
-@media (max-width: 1033px) 
-{
-  .container 
-  {
-    /* text-align: center; */
-    background-color: #212121;
-    flex-direction: row;
-    padding-top: 422px;
-    padding-right: 0px;
-    padding-bottom: 6%;
-    padding-left: -1px;
-
-  }
-
-  .container-nav 
-  {
-    flex-direction: row;
-    background-color: #212121;
-  }
-
-  nav ul 
-  {
-    /* flex-direction: column; */
-    text-align: center;
-    background-color: #212121;
-
-  }
-
-  nav li 
-  {
-    /* margin: 0.8em 0; */
-    background-color: #212121;
-
-  }
-  .evnt
-  {
-    /* padding-right: 30%; */
-    /* margin-top: 100%; */
-    /* padding: 50%; */
-  }
+  font-size: 20px;
 }
 
 .contest
@@ -216,7 +97,8 @@ nav
   padding: 7% 15%;
 }
 
-.footer-icon {
+.footer-icon 
+{
   margin: 12px;
 }
 .copyright {
@@ -246,4 +128,70 @@ nav
   margin: 20px;
   padding: 20px;
   background-color: #f1f6f9;
+}
+
+
+@media (max-width: 700px) 
+{
+  .container 
+  {
+    text-align: center;
+    background-color: #719fb0;
+  }
+
+  .container-nav 
+  {
+    flex-direction: column;
+    background-color: #212121;
+  }
+  .evnt
+  {
+    padding-right: 30%;
+    margin-top: 120%;
+    padding: 50%;
+  }
+
+  h1
+  {
+    padding-top: 278px;
+  }
+  h2
+  {
+    margin-top: 350px;
+  }
+  form
+  {
+    margin-top: -30px;
+  }
+  .myBody
+  {
+    margin-left: 20px;
+    border: 2px black;
+  }
+
+  .UpcomingContest
+  {
+    
+  }
+  .pastContest
+  {
+    padding: 0 28px;
+  }
+
+  nav 
+  {
+    display: grid;
+    margin: 10vh;
+  }
+
+
+}
+
+
+@media (max-width: 865px)
+{
+  header
+  {
+
+  }
 }

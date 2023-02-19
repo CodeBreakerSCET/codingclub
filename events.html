@@ -8,36 +8,38 @@
     <script src="javaScript files/events.js"></script>
     <script src="javaScript files/updateData.js"></script>
     <link rel="stylesheet" href="css/event.css">
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
 </head>
 <body>
-    <header>
-          <nav>
-            <ul>
-              <li class="nav-item">
-                <a class="logo" href="index.html" style="text-decoration: none">
-                  <img src="images/FINAL_LOGO.png" height="60" alt="logo" loading="lazy">
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="aboutus.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Resource.html">Resources</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="events.html">Events</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+    
+  <nav>
+    <a href="index.html">
+      <img src="images/FINAL_LOGO.png" height="60" alt="logo" loading="lazy">
+       <span>
+        CodeBreaker
+       </span>
+      </a>
+      <ul>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Resource.html">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">Events</a>
+        </li>
+      </ul>
+  </nav>
+
 
       <div class="contest">
-        <div class="flexbox-container" style="display:flex;">
-          <div class="sidebar" style="flex:1;">
             <div class="UpcomingContest">
               <div class="myBody">
                 <h2 id="duo"> Upcoming Contest are..</h2>
@@ -53,9 +55,6 @@
                 <p id="events"></p> 
               </div>
             </div>
-          </div>
-          <div class="main" style="flex:1;">
-          </div>
           <div class="pastContest">
             <h2>
               Past Contest are..
@@ -65,8 +64,9 @@
               <input type="button" id="pasteventBtn" value="Click Here" onclick="pastContest()"/>  
             </form>
           </div>
-        </div>
       </div>
+
+
       <div class="results">
         <h5>Overall competition results from each year</h5>
       </div>
