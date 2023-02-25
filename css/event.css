@@ -228,22 +228,50 @@ header
   .pastContest
   {
     padding: 0 28px;
-  }
-
-  nav 
-  {
-    display: grid;
-    margin: 10vh;
-  }
-
+  }  
 
 }
 
 
-@media (max-width: 865px)
+@media (max-width: 700px)
 {
-  header
-  {
+  nav{
+    position: relative;
+  } ul{
+    display: none;
 
+
+
+    position: absolute;
+    top:36%;
+    right: 4%;
   }
+  #hamburgur{
+    display: block;
+  }
+  #hamburgur i{
+    color:white;
+  }
+  ul{
+    background-color: white;
+    width: 200px;
+    padding: 0;
+    border-radius: 10px;
+  }
+  li{
+    padding: 15px 15px !important;
+    border-radius: 10px;
+    margin: 0 !important;
+    text-align: center;
+    display: block;
+    /* width: 100%; */
+    border-bottom: 2px solid black;
+  }
+  li a{
+    font-weight: bold;
+  }
+  li:nth-child(4){
+    border:none;
+  }
+
 }
