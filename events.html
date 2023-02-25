@@ -12,6 +12,7 @@
       src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
       data-auto-replace-svg="nest"
     ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
@@ -22,7 +23,10 @@
         CodeBreaker
        </span>
       </a>
-      <ul>
+      <div id="hamburgur">   <!-- responsive -->
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <ul id="toogle-navbar">
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
         </li>
@@ -70,8 +74,21 @@
       <div class="results">
         <h5>Overall competition results from each year</h5>
       </div>
+      
       <footer id="footer">        
         <p class="copyright">&copy; Copyright 2022 CodeBreaker</p>
       </footer>
+
+
+      <script>
+        let navBarToggler=document.getElementById("hamburgur");
+
+navBarToggler.addEventListener("click", function(){
+    let toggleNavBAr=document.getElementById("toogle-navbar");
+    console.log(toggleNavBAr);
+    toggleNavBAr.classList.toggle("toggle-it");
+})
+      </script>
+      
 </body>
 </html>

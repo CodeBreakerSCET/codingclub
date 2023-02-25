@@ -58,3 +58,4 @@ function UpdateContest()
         alert("Contest name Can't blank")
     }
 }
+

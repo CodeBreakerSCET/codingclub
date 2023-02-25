@@ -62,6 +62,57 @@ nav a:focus {
 }
 
 
+/* responsive navbar starts form here  */
+#hamburgur{
+  display: none;
+}
+.toggle-it{
+  display: block !important;
+}
+@media screen and (max-width:1012px) {
+  nav{
+    position: relative;
+  } ul{
+    display: none;
+
+
+
+    position: absolute;
+    top:36%;
+    right: 4%;
+  }
+  #hamburgur{
+    display: block;
+  }
+  #hamburgur i{
+    color:white;
+  }
+  ul{
+    background-color: white;
+    width: 200px;
+    padding: 0;
+    border-radius: 10px;
+  }
+  li{
+    padding: 15px 15px !important;
+    border-radius: 10px;
+    margin: 0 !important;
+    text-align: center;
+    display: block;
+    /* width: 100%; */
+    border-bottom: 2px solid black;
+  }
+  li a{
+    font-weight: bold;
+  }
+  li:nth-child(4){
+    border:none;
+  }
+
+}
+
+/* ends here  */
+
 img
 {
   border-radius: 45%;
@@ -95,6 +146,7 @@ header
   background-color: #fff;
   text-align: center;
   padding: 7% 15%;
+  background-color: #719fb0;
 }
 
 .footer-icon 
