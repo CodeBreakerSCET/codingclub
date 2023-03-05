@@ -59,13 +59,14 @@
         Currently only update of contest is possible
       </h1>
       <div>
-        <form action="#" method="post">
-          <input type="text" name="contestName" id="contestName" placeholder="Write Contest Name Here">
-          <br>
-          <button id="addContest" type="submit" name ="myButton" onclick="UpdateContest()">Click to add contest</button>
-        </form>
-        
-
+        <div id="GFG">
+          <form action="#">
+              Name: <input type="text" style="margin: 10px;" name="Name">
+              <br>
+              <button onclick="AddInDataBase()">Submit</button>
+          </form>
+      </div>
+      <div id="output"></div>
       </div>
       <div class="logout">
         <button id="logoutButton" onclick="login()"> Logout</button>
