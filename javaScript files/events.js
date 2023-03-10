@@ -15,12 +15,12 @@ var myfunc = setInterval(function()
     if (timeleft < 0) 
     {
         clearInterval(myfunc);
-        document.getElementById("time").innerHTML = ""
-        document.getElementById("end").innerHTML = "TIME UP!!";
+        // document.getElementById("time").innerHTML = ""
+        // document.getElementById("end").innerHTML = "TIME UP!!";
     }
 
     // Result is output to the specific element
-    document.getElementById("time").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    // document.getElementById("time").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
 
 }, 1000)
@@ -28,15 +28,15 @@ var myfunc = setInterval(function()
 
 
 // add new events here--
-var eventName = ["Contest 4 (Not Yet scheduled) <br>","Contest 5 (Not Yet scheduled)  <br>"];
+var eventName = ["Contest 5 (Not Yet scheduled) <br>","Contest 6 (Not Yet scheduled)  <br>"];
 function upcomingTest()
 {
-    document.getElementById("first").innerHTML = "Contest 3 (Scheduled on Sunday) <br>";
+    document.getElementById("first").innerHTML = "Contest 4 (Schedule Soon) <br>";
     document.getElementById("events").innerHTML = eventName.join("\n");
     document.getElementById("eventBtn").value = "UpComing Contest"
 }
 
-var pastEvent = ["Contest 1 on 16 Oct 2022<br>", "Contest 2 on 22 Jan 2023<br>"]
+var pastEvent = ["Contest 1 on 16 Oct 2022<br>", "Contest 2 on 22 Jan 2023<br>", "Contest 2 on 5 Mar 2023<br>"]
 function pastContest()
 {
     document.getElementById("allpast").innerHTML = pastEvent.join("\n")
